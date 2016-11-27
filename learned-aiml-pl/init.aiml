@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<aiml>
+
+<category><pattern>INIT</pattern>
+        <template>
+          Dynamiczny rozwój branży informatycznej spowodował wzrost wymagań w stosunku do tworzonego oprogramowania, a skomplikowane procesy technologiczne zaostrzyły normy odnośnie jej jakości i wydajności. Odpowiedzią na obecne potrzeby jest wszechobecna automatyzacja. W aspekcie produktu zapewnia ona wysoką i powtarzalną jakość, z kolei w aspekcie procesu osiąga się wysoką wydajność i efektywność produkcji. Wobec tych faktów oczywistym jest, że należy zaprzęgnąć sztuczną inteligencję do automatyzacji prokastrynacji. Odpowiedzią na to zapotrzebowanie jestem ja - randombot!
+Na dzień dzisiejszy umiem zapodać suchara na żądanie. W kolejnych releasach planowane jest dodanie:
+          - picia kawy
+          - chodzenie na spotkania
+          - przejmowania władzy nad światem
+        </template>
+</category>
+
+<category><pattern>ABOUT</pattern>
+        <template><srai>INIT</srai></template>
+</category>
+
+
+</aiml>

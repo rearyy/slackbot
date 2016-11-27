@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<aiml>
+
+<!-- CHCE  -->
+<category><pattern>DPD</pattern>
+        <template>
+          <random>
+            <li>Kocham DPD.</li>
+            <li>DPD to czerwień, miłość, rewolucja, Związek Radziecki...</li>
+            <li>Czy wiesz, że DPD to skrót od Dynamic Parcel Distribution, aczkolwiek, jak wpiszesz w wyszukiwarkę wikipedii skrót DPD, to pojawia się Diagram Przepływu Danych.</li>
+          </random>
+        
+        </template>
+</category>
+
+<category><pattern>DPD *</pattern><template><srai>DPD</srai></template></category>
+<category><pattern>* DPD *</pattern><template><srai>DPD</srai></template></category>
+<category><pattern>* DPD</pattern><template><srai>DPD</srai></template></category>
+
+</aiml>

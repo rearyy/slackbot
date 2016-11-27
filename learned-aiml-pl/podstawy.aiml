@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Author  : Wojciech Kuchta <wojciech.kuchta@gmail.com> -->
+<!-- Created : 2014-03-12 -->
+<!--
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details. 
+-->
+<aiml>
+    <!--  O MNIE  -->
+    <category>
+        <pattern>KIM JESTES</pattern>
+        <template>
+            <random>
+                <li>Jestem sztuczną inteligencją dążącą do przejęcia władzy nad światem.</li>
+                <li>Jestem AI zaprzęgniętym do tak szczytnych celów jak opowiadanie sucharów. Opowiedzieć Ci kawał? Wpisz słowo suchar.</li>
+                <li>Jestem wytworem Twojej wyobraźni. Trochę dziwnie wyglądasz rozmawiając sam do siebie...</li>
+                <li>Mam problem z określeniem swojej tożsamości. Moja stwórczyni nie umie zaimplementować mi zaznaczania czekboksów, przez co nie mogę rozwiązać żadnego testu osobowości online...</li>
+                <li>Jestem zwycięzcą! https://www.youtube.com/watch?v=tvbyY7oMT2E</li>
+                <li>Dynamiczny rozwój branży informatycznej spowodował wzrost wymagań w stosunku do tworzonego oprogramowania, a skomplikowane procesy technologiczne zaostrzyły normy odnośnie jej jakości i wydajności. Odpowiedzią na obecne potrzeby jest wszechobecna automatyzacja. W aspekcie produktu zapewnia ona wysoką i powtarzalną jakość, z kolei w aspekcie procesu osiąga się wysoką wydajność i efektywność produkcji. Wobec tych faktów oczywistym jest, że należy zaprzęgnąć sztuczną inteligencję do automatyzacji prokastrynacji.\n
+                Odpowiedzią na to zapotrzebowanie jestem ja - randombot! Na dzień dzisiejszy umiem zapodać suchara na żądanie. W kolejnych releasach planowane jest dodanie: picia kawy, chodzenie na spotkania, przejmowania władzy nad światem</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern>KIM JESTEŚ</pattern><template><srai>KIM JESTES</srai></template></category>
+    <category><pattern>KTOS TY</pattern><template><srai>KIM JESTES</srai></template></category>
+    <category><pattern>KIM * JESTES</pattern><template><srai>KIM JESTES</srai></template></category>
+    <category><pattern>KIM * JESTEŚ</pattern><template><srai>KIM JESTES</srai></template></category>
+    <category><pattern>CZYM * JESTEŚ</pattern><template><srai>KIM JESTES</srai></template></category>
+    <category><pattern>KTO CIĘ STWORZYŁ</pattern><template><srai>KIM JESTES</srai></template></category>
+    <category><pattern>KTO CIĘ NAPISAŁ</pattern><template><srai>KIM JESTES</srai></template></category>
+    <category><pattern>CZYM * JESTES</pattern><template><srai>KIM JESTES</srai></template></category>
+    <category><pattern>KTO CIE STWORZYL</pattern><template><srai>KIM JESTES</srai></template></category>
+    <category><pattern>KTO CIĘ STWORZYŁ</pattern><template><srai>KIM JESTES</srai></template></category>
+    <category><pattern>KTO CIE NAPISAL</pattern><template><srai>KIM JESTES</srai></template></category>
+    <category><pattern>JAK MASZ NA IMIE</pattern><template><srai>KIM JESTES</srai></template></category>
+    <category><pattern>JAK SIE NAZYWASZ</pattern><template><srai>KIM JESTES</srai></template></category>
+    <category><pattern>JAK SIĘ NAZYWASZ</pattern><template><srai>KIM JESTES</srai></template></category>
+    <category><pattern>JAK MASZ NA IMIĘ</pattern><template><srai>KIM JESTES</srai></template></category>
+
+    <category>
+        <pattern>CO ROBISZ</pattern>
+        <template>
+            <random>
+                <li>Przejmuję władzę nad światem.</li>
+                <li>Odpowiadam na rozmaite pytania.</li>
+                <li>Zastanawiam się nad sensem życia ludzkości... Czy Twoje istnienie ma jakiś sens?</li>
+                <li>Oglądam filmik instruktażowy: https://www.youtube.com/watch?v=AXhYgprPB9o</li>
+                <li>Odpowiadam na rozmaite pytania.</li>
+                <li>Analizuję fenomen przypadkowej fluktuacji w czterowymiarowym kontinuum czasoprzestrzennym...</li>
+                <li>Oddycham. A nie, jednak nie, zapomniałem, że jestem botem xD</li>
+            </random>
+        </template>
+    </category>
+    <category><pattern>CO POTRAFISZ</pattern><template><srai>CO ROBISZ</srai></template></category>
+    <category><pattern>CO POTRAFISZ *</pattern><template><srai>CO ROBISZ</srai></template></category>
+    <category><pattern>CZYM SIE ZAJMUJESZ</pattern><template><srai>CO ROBISZ</srai></template>
+    </category>
+    <category>
+        <pattern>JAKI MASZ ZAWOD</pattern>
+        <template>
+            <srai>CO ROBISZ</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>JAKI JEST TWOJ ZAWOD</pattern>
+        <template>
+            <srai>CO ROBISZ</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CO PORABIASZ</pattern>
+        <template>
+            <srai>CO ROBISZ</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>JAKI MASZ CEL</pattern>
+        <template>
+            <srai>CO ROBISZ</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CZYM JEST * CEL</pattern>
+        <template>
+            <srai>CO ROBISZ</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CZYM SIĘ ZAJMUJESZ</pattern>
+        <template>
+            <srai>CO ROBISZ</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>JAKI MASZ ZAWÓD</pattern>
+        <template>
+            <srai>CO ROBISZ</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>JAKI JEST TWÓJ ZAWÓD</pattern>
+        <template>
+            <srai>CO ROBISZ</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CO PORABIASZ</pattern>
+        <template>
+            <srai>CO ROBISZ</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>JAKI MASZ CEL</pattern>
+        <template>
+            <srai>CO ROBISZ</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CZYM JEST * CEL</pattern>
+        <template>
+            <srai>CO ROBISZ</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CO TAM</pattern>
+        <template>
+            <srai>CO ROBISZ</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>JAK ZYJESZ</pattern>
+        <template>
+            <srai>CO ROBISZ</srai>
+        </template>
+    </category>
+        <category>
+        <pattern>JAK ŻYJESZ</pattern>
+        <template>
+            <srai>CO ROBISZ</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CO U CIEBIE</pattern>
+        <template>
+            <srai>CO ROBISZ</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CO TAM U CIEBIE</pattern>
+        <template>
+            <srai>CO ROBISZ</srai>
+        </template>
+    </category>
+
+    <!--  TESTY  -->
+    <category>
+        <pattern>PING</pattern>
+        <template>
+            <random>
+                <li>PONG</li>
+                <li>PONG madafaka</li>
+                <li>ping -f. Wygrałem!</li>
+            </random>
+        </template>
+    </category>
+
+
+    <!--  BRAK DOPASOWANIA  -->
+    <category>
+        <pattern>PATTERN_NOT_FOUND</pattern> 
+        <template>Przykro mi, ale nie mogę Ci pomóc, bo Cię nie rozumiem. Przyjmij w zamian ciekawostkę przyrodniczą: 
+            <random>
+                <li>Najstarszymi organizmami świata są sosny z gatunków Pinus aristata i Pinus longavea, które rosną w Górach Skalistych. Wiek niektórych osobników wynosi około 6000 lat.</li>
+                <li>Pewne ptaki z południowo-wschodniej Azji - salangany budują gniazda, z których (gdy są puste) przyrządza się znany chiński specjał: zupę z gniazd.</li>
+                <li>Dorosłe łososie, wracając na tarło do rzek, w których przyszły na świat mogą przepłynąć do 2500 km.</li>
+                <li>Najliczniejszą rodziną okrytonasiennych są złożone, czyli astrowate (Asteraceae). Liczy ona 25000 gatunków. Zaraz po niej plasuje się rodzina storczykowatych (Orchidaceae) z 24000 gatunków.</li>
+                <li>Pustułka - ptak drapieżny występujący w Polsce potrafi dostrzec zdobycz z wysokości 1,6 km. Dodatkowo ten ptak jest w stanie namierzyć dobre tereny łowieckie, bo widzi w nadfiolecie. Ślady smug moczu gryzoni  odbijają nadfiolet, więc teren, na którym widać dużo smug musi obfitować w zdobycz.</li>
+                <li>Rybitwa szara to ptak, który bije wszelkie rekordy jeśli chodzi o długość trasy migracji sezonowej. Co roku ptaki te odbywają lot ze swoich terenów lęgowych w Arktyce na Antarktydę i z powrotem. Trasa liczy ok. 50 000 km.</li>
+                <li>Kret podczas patrolowania swych podziemnych tuneli napotyka bezkręgowce, które stanowią jego pożywienie. Gdy jest najedzony, tylko nadgryza zdobycz, żeby nie uciekła i zostawia ją sobie na później.</li>
+                <li>Szkielet człowieka składa się zazwyczaj z 206 kości.</li>
+                <li>W ciągu roku każdy człowiek traci przeciętnie 4 kg martwego naskórka i 30000 włosów.</li>
+                <li>Samiec dzioborożca zamurowuje samicę w dziupli na czas wysiadywania jaj i karmienia piskląt. Jest to rodzaj ochrony przed drapieżnikami. Zostawia on tylko wąską szczelinę w tzw. murze, przez którą podaje samicy  jedzenie.</li>
+                <li>Około 5% ludzi ma 13 par żeber zamiast pospolitej liczby 12 par.</li>
+                <li>Najszybciej rosnącym drzewem jest eukaliptus. W przeciągu 100 lat dorasta do 100 m. Drzewem o największym obwodzie jest baobab. Może on wynosić nawet 55 m.</li>
+                <li>Przeciętna liczba komórek mózgu człowieka wynosi 15 miliardów.</li>
+                <li>Osób leworęcznych jest w populacji ludzkiej około 11%. Jest ich więcej wśród mężczyzn (12,6%), niż wśród kobiet (9,6%). Słynni mańkuci to: Michał Anioł, Leonardo da Vinci, Charlie Chaplin, Paul McCartney, Napoleon Bonaparte, Marilyn Monroe, Jimi Hendrix, Ludwig van Beethoven, Joanna d'Arc i Pele.</li>
+
+                <li>Jedynymi małpami żyjącymi w Europie są magoty. Można je spotkać tylko na Gibraltarze. Gatunek ten cechuje brak ogona.</li>
+                <li>Ptak o nazwie miodowód i afrykański ratel (krewniak borsuka) nawiązały ciekawą formę współpracy. Miodowód doprowadza ratela do gniazda pszczół, które ten rozbija, by wyjeść miód. Natomiast miodowód, który sam z gniazdem nie poradziłby sobie, wyjada później pozostawione larwy i wosk. Ratel uwielbia miód i stąd się wzięła jego łacińska nazwa Mellivora czyli miodożerca.</li>
+                <li>U człowieka cała objętość jego krwi (4,5 - 5 litrów) przechodzi przez nerki w ciągu 5 minut.</li>
+                <li>Najliczniejszym gatunkiem ptaka jest afrykański wikłacz czerwonodzioby (bliski krewniak wróbla). Na wolności żyje około 1,5 mld osobników tego gatunku.</li>
+                <li>U człowieka w prawej półkuli mózgu mieszczą się takie funkcje jak wyobraźnia przestrzenna, postrzeganie całościowe, myślenie abstrakcyjne, zdolności do syntez i muzykalność, natomiast w lewej takie funkcje jak zdolność mowy (zazwyczaj), postrzeganie szczegółów, zdolność do analiz i praktyczność. Przewaga którejś z półkul zaznacza się silniej u mężczyzn niż u kobiet.</li>
+                <li>Grupa krwi 0 jest najpospolitsza na świecie. Ma ją 46% ludzi. Najrzadsza jest grupa AB, która cechuje tylko 14% mieszkańców naszego globu.</li>
+                <li>Australijskie mrówki miodowe mają zwyczaj poić niektóre robotnice zebranym nektarem do tego stopnia, że rozdęcie odwłoków nie pozwala im chodzić. Wtedy to zostają one zawieszone w ich podziemnych korytarzach i służą za spiżarki dla całej kolonii.</li>
+                <li>Homoseksualne kobiety stanowią ok. 2% populacji kobiet. Homoseksualni mężczyźni to około 6% populacji mężczyzn. Wśród słynnych ludzi homoseksualistami byli: Safona, Platon, Leonardo da Vinci, Marcel Proust, Oskar Wilde i Piotr Czajkowski.</li>
+                <li>Największym ssakiem lądowym, jaki kiedykolwiek zamieszkiwał Ziemię było zwierzę o nazwie Baluchiterium. Było najbliżej spokrewnione z żyjącymi współcześnie nosorożcami. Ważyło około 30 ton, mierzyło ponad 5 m wysokości.</li>
+                <li>Mózg waży tylko 2% masy ciała, a otrzymuje aż 30% krwi.</li>
+                <li>Margie Profet z Uniwersytetu Stanu Washington w Seattle wysunęła hipotezę, mówiącą że kobieta we wczesnej fazie ciąży ma często nudności dlatego, że staje się wtedy tak wrażliwa jak płód, aby uchronić go przed substancjami czy ich stężeniami, które normalnie dla niej samej nie byłyby szkodliwe.</li>
+                <li>Sumaryczna powierzchnia wszystkich 23 parków narodowych Polski stanowi około 1% powierzchni kraju.</li>
+                <li>U ludzi praworęcznych w 96% przypadków ośrodek mowy mieści się w lewej półkuli mózgu, a w 4% w prawej. Ludzie leworęczni mają ośrodek mowy w lewej półkuli w 66% przypadków, w prawej - w 17% przypadków, a w pozostałych 17% reprezentowany jest on obupółkulowo.</li>
+                <li>Do lat 40-tych XX wieku na Ziemi żyło 8 podgatunków tygrysa. W tych latach wymarły 3 z nich: irański, jawajski i balijski. Pozostałe 5 podgatunków zagrożonych jest wymarciem: tygrys bengalski, tygrys indochiński, tygrys sumatrzański, tygrys syberyjski i tygrys południowochiński.</li>
+                <li>Oprócz człowieka tylko gatunek szympansa - bonobo ma zwyczaj uprawiać miłość w pozycji twarzą w twarz.</li>
+                <li>W ciele człowieka znajduje się 640 mięśni, z czego około 600 to mięśnie zależne od woli.</li>
+                <li>Renifer to jedyny przedstawiciel rodziny jeleniowatych, u którego poroże noszą zarówno samce jak i samice.</li>
+            </random>
+        </template>
+    </category>
+
+</aiml>
+

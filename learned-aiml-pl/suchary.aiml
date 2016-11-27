@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Author  : Wojciech Kuchta <wojciech.kuchta@gmail.com> -->
+<!-- Created : 2014-07-27 -->
+<!--
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details. 
+-->
+<aiml>
+
+<!-- KIEDY  -->
+<category><pattern>SUCHAR</pattern>
+        <template>
+          <random>
+            <li>Jak ma na imię grecki bóg czystości? Domestos xD</li>
+            <li>Co robią lekarze w kuchni? Leczo xD</li>
+            <li>Gdzie jest krym? Na ciostku xD</li>
+            <li>Co robią dziki w zamku? Penetrują lochy xD</li>
+            <li>Co robi samobójca w łazience? Próbuje się załatwić xD</li>
+            <li>Co robi samobójca w zamku? Próbuje się załatwić xD</li>
+            <li>Co mówi informatyk jak dostanie pendrajwa na urodziny? Dzięki za pamięć xD</li>
+            <li>Jaki jest ulubiony program kanibali? Surowi rodzice xD</li>
+            <li>Co to jest: małe, zielone, mieszka pod ziemią i zjada kamyczki? Mały, zielony, podziemny zjadacz kamyczków. xD</li>
+            <li>Dlaczego Robin Hood? Bo niewiela jod. xD</li>
+            <li>Przychodzi twierdzenie do baru i zamawia piwo. Na to barman: A dowodzik jest? Nie, bo ja jestem aksjomatem. xD</li>
+            <li>Idzie Jezus przez pustynię z apostołami i naucza.
+                Jezus: Raj jest jak x^2 + 2x + 3.
+                Tomasz (szturcha Jana): Te, o co mu właściwie chodzi?
+                Jan: Nie wiem, to chyba jakaś parabola. xD</li>
+            <li>Co mówi matematyk, widząc nisko przelatujące wektory? Na pewno lecą do bazy. xD</li>
+            <li>Dlaczego informatycy mylą Boże Narodzenie z Halloween? 31 oct = 25 dec  xD</li>
+            <li>Czy istnieją liczby naturalne, które są nieinteresujące? Nie! Wszystkie liczby naturalne są interesujące. Weźmy jedynkę – jest jedyną liczbą z jednym dzielnikiem. To bardzo interesujące. Załóżmy teraz, że istnieją liczby nieinteresujące. Z zasady minimum, weźmy najmniejszą z nich. Ma ona tę własność, że wszystkie liczby mniejsze od niej są interesujące, a ona nie. To bardzo interesująca własność. Zatem otrzymujemy sprzeczność. xD</li>
+            <li>Przychodzi tester do baru i zamawia drinka. Zamawia 10 drinków. Zamawia 99999999999 drinków. Odchodzi od baru, podchodzi ponownie, zamawia -8 drinków. Zamawia zero drinków. Zamawia szynę kolejową. xD</li>
+            <li>... i rzekł Bóg: "Ostatni będą pierwszymi!". Tak oto powstał stos. xD</li>
+            <li>Na świecie jest 10 rodzajów ludzi: ci, którzy rozumieją system binarny i ci, którzy go nie rozumieją. xD</li>
+            <li>int kobieta; //kobieta zmienną jest xD</li>
+            <li>I TOLD KIM I CAN'T OPEN THE JAR. HE TOLD ME TO INSTALL JAVA xD</li>
+            <li>Sprzątaczka po zmyciu podłóg w biurze powiesiła na tablicy informację "Ajax się kończy", a programiści zaczęli czytać o websocketach... :D xD</li>
+            <li>Ilu programistów potrzeba, aby zmienić żarówkę? Żadnego, to problem ze sprzętem xD</li>
+          </random>
+        </template>
+</category>
+
+<category>
+<pattern>* SUCHARA</pattern>
+<template>
+<srai>SUCHAR</srai>
+</template>
+</category>
+
+<category>
+<pattern>SUCHAR *</pattern>
+<template>
+<srai>SUCHAR</srai>
+</template>
+</category>
+
+<category>
+<pattern>* SUCHAR</pattern>
+<template>
+<srai>SUCHAR</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ŻART</pattern>
+<template>
+<srai>SUCHAR</srai>
+</template>
+</category>
+
+<category>
+<pattern>ŻART</pattern>
+<template>
+<srai>SUCHAR</srai>
+</template>
+</category>
+
+<category>
+<pattern>* ŻART *</pattern>
+<template>
+<srai>SUCHAR</srai>
+</template>
+</category>
+
+<category>
+<pattern>* KAWAŁ</pattern>
+<template>
+<srai>SUCHAR</srai>
+</template>
+</category>
+
+<category>
+<pattern>* KAWAŁ *</pattern>
+<template>
+<srai>SUCHAR</srai>
+</template>
+</category>
+</aiml>

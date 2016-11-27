@@ -1,0 +1,27 @@
+{
+    "main":{
+        "SLACK_TOKEN":"xoxb-EXAMPLE",
+        "SLACK_USER_ID":"UIDIDIDID"
+    },
+    "modules":[
+        {
+            "name":"JenkinsModule",
+            "isOn":true,
+            "host":"127.0.0.1",
+            "username":"hej",
+            "password":"ho"
+        },
+        {
+            "name":"SSHCommandModule",
+            "isOn":true,
+            "host":"127.0.0.1",
+            "username":"hej",
+            "password":"ho",
+            "command_folder":"./commands/"
+        },
+        {
+            "name":"AIModule",
+            "isOn":true
+        }
+    ]
+}
